@@ -1,6 +1,6 @@
 {
   "name": "hash-search",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "location.hash &amp; location.search for single page application",
   "license": "MIT",
   "repository": "egoist/hash-search",

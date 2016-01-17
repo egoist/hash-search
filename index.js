@@ -1,10 +1,10 @@
 module.exports = function (hash) {
 	hash = hash || location.hash
-	var whereIsQuerstionMark = hash ? hash.indexOf('?') : -1
-	if (whereIsQuerstionMark > 0) {
+	var whereIsQuestionMark = hash ? hash.indexOf('?') : -1
+	if (whereIsQuestionMark > 0) {
 		return {
-			hash: hash.substring(0, whereIsQuerstionMark),
-			search: hash.substring(whereIsQuerstionMark)
+			hash: hash.substring(0, whereIsQuestionMark),
+			search: hash.substring(whereIsQuestionMark)
 		}
 	}
 	return {
