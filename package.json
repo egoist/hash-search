@@ -1,0 +1,34 @@
+{
+  "name": "hash-search",
+  "version": "0.0.0",
+  "description": "location.hash &amp; location.search for single page application",
+  "license": "MIT",
+  "repository": "egoist/hash-search",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "hash",
+    "search",
+    "location"
+  ],
+  "devDependencies": {
+    "ava": "^0.8.0",
+    "xo": "^0.12.1"
+  },
+  "xo": {
+    "semicolon": false,
+    "envs": ["browser"]
+  }
+}
